@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import ModelContext from './ModelContext'
+import ModalContext from './ModalContext'
 import './../styles/App.css';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <h1>Parent Component</h1>
         <div className="child-component">
           <h2>Child Component</h2>
-          <ModelContext showModel={setObj}/>
+          <ModalContext showModal={setObj}/>
           <h3>{obj.context}</h3>
           <p>{obj.text}</p>
         </div>
