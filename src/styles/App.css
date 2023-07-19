@@ -1,1 +1,8 @@
+.parent-component{
+    background-color: blueviolet;
+    padding: 5px;
+}
+.child-component{
+    background-color: brown;
+}
 
